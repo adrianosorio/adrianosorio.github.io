@@ -1,0 +1,103 @@
+#logo {
+  width: 30px;
+  height: 30px; }
+
+.navbar-black {
+  background-color: black; }
+
+#slide_one_title {
+  width: 10em;
+  height: 4em;
+  background-color: whitesmoke;
+  border: 5px solid #66CCFF;
+  position: absolute;
+  margin-left: 15%;
+  bottom: 2%;
+  display: none;
+  opacity: 0.5;
+  border-radius: 5px; }
+
+#slide_one_title h1 {
+  font-family: monospace;
+  color: aqua;
+  opacity: 0.9;
+  margin: auto;
+  text-align: center; }
+
+#slide_two_title {
+  width: 10em;
+  height: 4em;
+  background-color: whitesmoke;
+  border: 5px solid #66CCFF;
+  position: absolute;
+  margin-left: 15%;
+  bottom: 2%;
+  display: none;
+  opacity: 0.5;
+  border-radius: 5px; }
+
+#slide_two_title h1 {
+  font-family: monospace;
+  color: aqua;
+  opacity: 0.9;
+  margin: auto;
+  text-align: center; }
+
+#slide_three_title {
+  width: 10em;
+  height: 4em;
+  background-color: whitesmoke;
+  border: 5px solid #66CCFF;
+  position: absolute;
+  margin-left: 15%;
+  bottom: 2%;
+  display: none;
+  opacity: 0.5;
+  border-radius: 5px; }
+
+#slide_three_title h1 {
+  font-family: monospace;
+  color: aqua;
+  opacity: 0.9;
+  margin: auto;
+  text-align: center; }
+
+/*this is now related to the body of the page or call to action*/
+.background-title h1 {
+  color: #00FFFF; }
+
+.buttonc {
+  width: 20rem;
+  height: 6rem;
+  background-color: aqua;
+  border: .2rem solid black;
+  border-radius: 10%;
+  text-align: center;
+  padding-top: 1.5%;
+  box-shadow: 0 2px 4px 2px grey;
+  margin-left: 60%; }
+  .buttonc a {
+    text-decoration: none; }
+
+.buttonc:hover {
+  background-color: #E7260D;
+  cursor: pointer; }
+
+/*Call to action has finished*/
+/*footer begins here*/
+#stripe {
+  width: 100%;
+  height: 7em;
+  background-color: #2E2E2E; }
+  #stripe .pagefooter {
+    font-family: monospace;
+    color: #FFFFFF;
+    font-size: 100%; }
+
+/*Social Media*/
+#social-background {
+  background-color: blue;
+  width: 100%;
+  height: 100%; }
+
+/*# sourceMappingURL=Adrian.css.map */

@@ -1,1 +1,170 @@
-hello world
+<!DOCTYPE html>
+  <html lang='en'>
+    
+    <head>
+      
+      <title>Home</title>    
+        
+      <!--This is a link to the Bootstrap CDN for version 3.3.5-->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+      
+      <!--This al,lows for mobile support-->
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      
+      <!--This connects my Sass/CSS file to the html-->
+      <link rel='stylesheet' type="text/css" href='Adrian.css'/>
+    
+      <!-- Optional theme -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+      
+      <!--This Connects 2.1.4 version of JQuery to my Site-->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+      
+      <!--This connects my Javascript file -->
+      <script src="Adrian.js"></script>
+      
+      <!-- Latest compiled and minified JavaScript -->
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+        
+      <!--Icon for web browser-->  
+      <link rel="shortcut icon" href="favicon.ico"/>
+
+    </head>
+    <body>
+        <!--header with all the content-->
+        <div class="page">
+            <div></div>
+        </div>
+        <!--Beginning of Navigation bar-->
+        <div class='navbar navbar-black navbar-fixed-top'>
+            
+            <div class ="container">
+                
+              <a href="Adrian.html" class="navbar-brand"><img alt="Brand" src="Images/CursiveAInverted.png" id="logo">
+</a>
+                <button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+                  
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                
+                </button>
+                
+                <div class="collapse navbar-collapse navHeaderCollapse">
+                
+                    <ul class="nav navbar-nav navbar-right">
+                    
+                        <li role="presentation" class="active"><a href="#">Home</a></li>
+                        <li role="presentation" class=""><a href="www.google.com">About</a></li>
+                        <li role="presentation" class=""><a href="http://www.html5canvastutorials.com/">Contact</a></li>
+                        <li class="dropdown">
+                          <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                             Services<span class="caret"></span>
+                           </a>
+                             <ul class="dropdown-menu">
+                               <li class=""><a href="#">MC Server</a></li>
+                               <li class=""><a href="#">Website Developer</a></li>
+                               <li class=""><a href="#">Tutoring</a></li>
+                             </ul>
+                        </li>
+                        
+                        <li class="dropdown">
+                          <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                             Education<span class="caret"></span>
+                           </a>
+                             <ul class="dropdown-menu">
+                               <li class=""><a href="#">Tutoring</a></li>
+                               <li class=""><a href="#">Documentation</a></li>
+                               <li class=""><a href="#">Club</a></li>
+                             </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- Navigation Bar this is where it ends-->
+        <!--Carousal Begins-->
+        <div id="grabber" class="carousel slide"  data-ride="carousel"><!--This initiates the carousal-->
+            
+            <ol class="carousel-indicators"><!--Order of individual slides and are the indicators in the bottom-->
+            
+              <li data-target="#grabber" data-slide-to="0" class="active" id='slide1'></li>
+              <li data-target="#grabber" data-slide-to="1" id="slide2"></li>
+              <li data-target="#grabber" data-slide-to="2" id="slide3"></li>
+            
+            </ol>
+          
+            <div class="carousel-inner"><!--Image content for Carousel-->
+              
+              <div class="item active"><!--These are going to be the resources-->
+              
+                <img src="Images/testD.png" alt="Error" class="img-resposive">
+              
+              </div>
+            
+              <div class="item"><!--These are going to be the resources-->
+              
+                <img src="Images/testD(1).png" alt="Error" class="img-resposive">
+              
+              </div>
+            
+              <div class="item"><!--These are going to be the resources-->
+              
+                <img src="Images/testD(2).png" alt="Error" class="img-resposive">
+              
+              </div>  
+          
+          </div>
+            <!--Controls for the Carousel-->
+            <a class="carousel-control left" href="#grabber" data-slide="prev">
+              <span class="icon-prev"></span>
+            </a>
+            
+            <a class="carousel-control right" href="#grabber" data-slide="next">
+              <span class="icon-next"></span>
+            </a>
+            
+        </div>
+        <!--Carousal Ends-->
+        <!--Description of image Tags that will popup for the images-->
+        <div id='description_slides'>
+          <div id="slide_one_title"><h1>Red</h1></div>
+          <div id="slide_two_title"><h1>Green</h1></div>
+          <div id="slide_three_title"><h1>Yellow</h1></div>
+        </div>
+        <!--Description Ends-->
+        <!--Call to action Begins-->
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">  
+                    <div class="jumbotron background-title">
+                      <div class="container">
+                        <h1>Welcome To My Site</h1>
+                        <p>     For all those that do not know me I am Adrian Osorio and am a student at El Segundo High School. 
+                          I am technology enthusiest with a strong interest in Engineering while also being a active participant                           in the community. I am also a tutor who has a strong academic standing in El Segundo High School and                             am known as a great helper to the Students at ESHS and  bellow who has a strong understanding of STEM                           and Language subjects.  </p>
+                          <p class="buttonc"><a href="#">Read More</a></p>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+        <!--Beginning of Social Media Section-->
+        
+        <div class="container-fluid" id="social">
+            <div class="col-md-4" id="social-background">
+                <p>Connect</p>
+            </div>
+        </div>
+        <!--End of Social Media Section-->
+        <!--Call to action ends here-->
+        <div id="footer">
+            <div id="stripe">
+                <center><p class="pagefooter">Osarian Integrated Technologies</p></center>
+                <center><p class="pagefooter">Founder: Adrian Osorio</p></center>
+                <center><p class="pagefooter">Hoping to provide the best services to the local community</p></center>
+            </div>
+        </div>
+        <!--End Of Footer-->
+    </body>
+
+  </html>

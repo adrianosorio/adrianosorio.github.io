@@ -1,4 +1,23 @@
+/*Attributes that can be applied globally*/
+body{
+background-color:antiquewhite;
+}
+@mixin dropdown($color){
+background-color: $color;
+cursor:pointer;
+  .Not_Here{
+    visibility: visible;
+    display:block;
+    
+  }
+    .title{
+    background-color: $color;
+    cursor:default;
+    
+    }
+}
 
+/*Attributes that dont need to be applied globally*/
 #logo{
 width:30px;
 height:30px;
@@ -101,8 +120,57 @@ cursor: pointer;
     }
 }
 /*Social Media*/
-#social-background{
-    background-color:blue;
-    width:100%;
-    height:100%;
+#social{
+margin-top: -2em;
 }
+
+.title{
+color:white;
+font-family: bitter;
+display:block;
+
+}
+/*Top of header*/
+@mixin social-tag($color){
+background-color:$color;
+height:100%;
+
+}
+.social-tag-blue{
+@include social-tag(#FF9933);
+}
+
+/*First Column begins*/
+.cool{
+background-color: #FF9933;/*This forms the background for most items*/
+}
+
+.cool:hover{//this will add an affect
+@include dropdown(blue);
+}
+.cool1:hover{
+@include dropdown(blue);
+}
+.Not_Here{//This forms background for the text that is displayed
+background-color: blue;
+display:none;
+}
+/*First Column ends*/
+.social-tag-green{
+@include social-tag(#CC3300);
+}
+.social-tag-green:hover{
+@include dropdown(blue);
+
+
+}
+.social-tag-yellow{
+@include social-tag(#FFCC00);  
+}
+.social-tag-yellow:hover{
+@include dropdown(blue);
+}
+.cool1{
+@include social-tag(#FF0066);
+}
+/*Animation begins*/

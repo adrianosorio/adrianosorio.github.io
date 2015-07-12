@@ -1,3 +1,8 @@
+/*Attributes that can be applied globally*/
+body {
+  background-color: antiquewhite; }
+
+/*Attributes that dont need to be applied globally*/
 #logo {
   width: 30px;
   height: 30px; }
@@ -95,9 +100,81 @@
     font-size: 100%; }
 
 /*Social Media*/
-#social-background {
-  background-color: blue;
-  width: 100%;
+#social {
+  margin-top: -2em; }
+
+.title {
+  color: white;
+  font-family: bitter;
+  display: block; }
+
+/*Top of header*/
+.social-tag-blue {
+  background-color: #FF9933;
   height: 100%; }
+
+/*First Column begins*/
+.cool {
+  background-color: #FF9933;
+  /*This forms the background for most items*/ }
+
+.cool:hover {
+  background-color: blue;
+  cursor: pointer; }
+  .cool:hover .Not_Here {
+    visibility: visible;
+    display: block; }
+  .cool:hover .title {
+    background-color: blue;
+    cursor: default; }
+
+.cool1:hover {
+  background-color: blue;
+  cursor: pointer; }
+  .cool1:hover .Not_Here {
+    visibility: visible;
+    display: block; }
+  .cool1:hover .title {
+    background-color: blue;
+    cursor: default; }
+
+.Not_Here {
+  background-color: blue;
+  display: none; }
+
+/*First Column ends*/
+.social-tag-green {
+  background-color: #CC3300;
+  height: 100%; }
+
+.social-tag-green:hover {
+  background-color: blue;
+  cursor: pointer; }
+  .social-tag-green:hover .Not_Here {
+    visibility: visible;
+    display: block; }
+  .social-tag-green:hover .title {
+    background-color: blue;
+    cursor: default; }
+
+.social-tag-yellow {
+  background-color: #FFCC00;
+  height: 100%; }
+
+.social-tag-yellow:hover {
+  background-color: blue;
+  cursor: pointer; }
+  .social-tag-yellow:hover .Not_Here {
+    visibility: visible;
+    display: block; }
+  .social-tag-yellow:hover .title {
+    background-color: blue;
+    cursor: default; }
+
+.cool1 {
+  background-color: #FF0066;
+  height: 100%; }
+
+/*Animation begins*/
 
 /*# sourceMappingURL=Adrian.css.map */

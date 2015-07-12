@@ -16,6 +16,16 @@ cursor:pointer;
     
     }
 }
+.text_p{
+font-family: bitter;
+color:white;
+}
+.title{
+color:white;
+font-family: bitter;
+display:block;
+
+}
 
 /*Attributes that dont need to be applied globally*/
 #logo{
@@ -124,12 +134,7 @@ cursor: pointer;
 margin-top: -2em;
 }
 
-.title{
-color:white;
-font-family: bitter;
-display:block;
 
-}
 /*Top of header*/
 @mixin social-tag($color){
 background-color:$color;
@@ -172,5 +177,40 @@ display:none;
 }
 .cool1{
 @include social-tag(#FF0066);
+}
+.social-icon{
+width:3em;
+height:3em;
+
+}
+.margin_social{
+margin-left:4em;
+margin-top:-2.5em;
+
+}
+@media screen and (max-width:450px){
+  .buttond{
+  width:12rem;
+  height:4rem;
+  background-color: aqua;
+  border: .2rem solid black;
+  border-radius:10%;
+  text-align: center;
+  padding-top:1.5%;
+  box-shadow: 0 2px 4px 2px grey;
+  margin-left: 60%;
+    a{
+      text-decoration: none;
+      
+      }
+}
+    
+}
+@media screen and (max-width:1000px){
+    .margin-social-mobile{
+    margin-left: auto;
+    margin-top: auto;
+    text-align: center;
+    }
 }
 /*Animation begins*/

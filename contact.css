@@ -2,8 +2,16 @@
   color: white;
   font-family: bitter; }
 
+/*Body animation begins here*/
+@-webkit-keyframes example {
+  from {
+    background-color: red; }
+  to {
+    background-color: #FFFF00; } }
 #bodystyle {
-  background-color: #FFFF00; }
+  background-color: #FFFF00;
+  -webkit-animation-name: example;
+  -webkit-animation-duration: 4s; }
 
 #Main_Content {
   background-color: white;
@@ -12,6 +20,7 @@
   margin-right: 7em;
   margin-left: 7em; }
 
+/*Navagation Begins here*/
 #logo {
   width: 30px;
   height: 30px; }
@@ -19,9 +28,14 @@
 .navbar-black {
   background-color: black; }
 
-footer {
+/*footer begins here*/
+#stripe {
   width: 100%;
-  height: 100%;
-  background-color: grey; }
+  height: 7em;
+  background-color: #2E2E2E; }
+  #stripe .pagefooter {
+    font-family: monospace;
+    color: #FFFFFF;
+    font-size: 100%; }
 
 /*# sourceMappingURL=contact.css.map */

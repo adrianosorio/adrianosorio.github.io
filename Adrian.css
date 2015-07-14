@@ -8,8 +8,7 @@ body {
 
 .title {
   color: white;
-  font-family: bitter;
-  display: block; }
+  font-family: bitter; }
 
 /*Attributes that dont need to be applied globally*/
 #logo {
@@ -127,20 +126,22 @@ body {
   cursor: pointer; }
   .cool:hover .Not_Here {
     visibility: visible;
-    display: block; }
+    display: block;
+    cursor: auto; }
   .cool:hover .title {
     background-color: blue;
-    cursor: default; }
+    cursor: pointer; }
 
 .cool1:hover {
   background-color: blue;
   cursor: pointer; }
   .cool1:hover .Not_Here {
     visibility: visible;
-    display: block; }
+    display: block;
+    cursor: auto; }
   .cool1:hover .title {
     background-color: blue;
-    cursor: default; }
+    cursor: pointer; }
 
 .Not_Here {
   background-color: blue;
@@ -156,10 +157,11 @@ body {
   cursor: pointer; }
   .social-tag-green:hover .Not_Here {
     visibility: visible;
-    display: block; }
+    display: block;
+    cursor: auto; }
   .social-tag-green:hover .title {
     background-color: blue;
-    cursor: default; }
+    cursor: pointer; }
 
 .social-tag-yellow {
   background-color: #FFCC00;
@@ -170,10 +172,11 @@ body {
   cursor: pointer; }
   .social-tag-yellow:hover .Not_Here {
     visibility: visible;
-    display: block; }
+    display: block;
+    cursor: auto; }
   .social-tag-yellow:hover .title {
     background-color: blue;
-    cursor: default; }
+    cursor: pointer; }
 
 .cool1 {
   background-color: #FF0066;
@@ -204,7 +207,23 @@ body {
   .margin-social-mobile {
     margin-left: auto;
     margin-top: auto;
-    text-align: center; } }
+    text-align: center; }
+
+  .margin-social-mobile-one {
+    margin-top: -1.5em; } }
+/*Classes for the jquery function socialDropDown*/
+.social-js-1 {
+  background-color: blue;
+  cursor: pointer; }
+
+.content-js-1 {
+  visibility: visible;
+  display: block; }
+
+.title-js-1 {
+  background-color: blue;
+  cursor: default; }
+
 /*Animation begins*/
 
 /*# sourceMappingURL=Adrian.css.map */

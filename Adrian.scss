@@ -8,11 +8,12 @@ cursor:pointer;
   .Not_Here{
     visibility: visible;
     display:block;
+    cursor:auto;
     
   }
     .title{
     background-color: $color;
-    cursor:default;
+    cursor:pointer;
     
     }
 }
@@ -23,8 +24,6 @@ color:white;
 .title{
 color:white;
 font-family: bitter;
-display:block;
-
 }
 
 /*Attributes that dont need to be applied globally*/
@@ -136,6 +135,7 @@ margin-top: -2em;
 
 
 /*Top of header*/
+
 @mixin social-tag($color){
 background-color:$color;
 height:100%;
@@ -188,6 +188,7 @@ margin-left:4em;
 margin-top:-2.5em;
 
 }
+
 @media screen and (max-width:450px){
   .buttond{
   width:12rem;
@@ -212,5 +213,14 @@ margin-top:-2.5em;
     margin-top: auto;
     text-align: center;
     }
+    .margin-social-mobile-one{
+       margin-top: -1.5em;
+    
+    }
+    
 }
+/*Classes for the jquery function socialDropDown*/
+.social-js-1{background-color:blue;cursor:pointer;}
+.content-js-1{visibility:visible;display:block;}
+.title-js-1{background-color:blue;cursor:default;}
 /*Animation begins*/

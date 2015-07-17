@@ -10,6 +10,8 @@
     background-color: #FFFF00; } }
 #bodystyle {
   background-color: #FFFF00;
+  width: 100%;
+  height: 100%;
   -webkit-animation-name: example;
   -webkit-animation-duration: 4s; }
 
@@ -17,8 +19,8 @@
   background-color: white;
   width: 82%;
   height: 49em;
-  margin-right: 7em;
-  margin-left: 7em; }
+  margin-right: 5%;
+  margin-left: 9%; }
 
 /*Navagation Begins here*/
 #logo {
@@ -37,5 +39,11 @@
     font-family: monospace;
     color: #FFFFFF;
     font-size: 100%; }
+
+/*Contact image section*/
+#contact-title {
+  width: 90%;
+  height: 40%;
+  margin-left: 5%; }
 
 /*# sourceMappingURL=contact.css.map */

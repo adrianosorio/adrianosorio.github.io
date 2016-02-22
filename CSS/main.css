@@ -1,0 +1,51 @@
+.r {
+  background-color: aqua;
+  height: 100%;
+  width: 100%; }
+
+.nav_bar {
+  width: 100%;
+  height: 4em;
+  background-color: rgba(1, 1, 1, 0.6);
+  position: fixed;
+  z-index: 1; }
+
+.nav-elem {
+  display: inline-block;
+  background-color: none;
+  padding-top: 0.25em;
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-bottom: 0.25em;
+  margin-top: 0.5em;
+  margin-left: 1em;
+  float: right; }
+
+a {
+  text-decoration: none;
+  text-underline-position: none;
+  color: white;
+  font-family: bangers;
+  font-size: 1.3em; }
+
+#splash-image {
+  margin-top: -12em;
+  position: none;
+  height: 60em;
+  width: 100%; }
+
+.blurb {
+  position: static;
+  margin-top: -30em;
+  color: white; }
+
+.sub-title {
+  font-size: 3em;
+  font-family: lobster;
+  color: white; }
+
+#blirb {
+  font-family: "Crimson Text";
+  font-size: 1.3em; }
+
+/*# sourceMappingURL=main.css.map */

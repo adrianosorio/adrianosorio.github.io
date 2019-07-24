@@ -1,88 +1,37 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE HTML>
+<html lang = "en">
     <head>
-        
-        <title>Adrians~HomePage</title>
-        
-        <link rel="stylesheet" type="text/css" href="CSS/Skeleton-2.0.4/css/normalize.css"/>
-        <link rel="stylesheet" type="text/css" href="CSS/Skeleton-2.0.4/css/skeleton.css"/>
-        <link rel="stylesheet" type="text/css" href="CSS/main.css"/>
-        <link href='https://fonts.googleapis.com/css?family=Lobster|Crimson+Text|Bangers|Lobster+Two' rel='stylesheet' type='text/css'>
-        <!--
-            
-        font-family: 'Lobster', cursive;
-
-        font-family: 'Crimson Text', serif;
-
-        font-family: 'Bangers', cursive;
-
-        font-family: 'Lobster Two', cursive;s
-
-        -->
-        <script src="JS/app.js"></script>
-        <link rel="shortcut icon" href="/Images/favicon.ico">
+        <title>Home</title>
+        <meta charset = "UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="main-css.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/p5.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="canvas-animation.js"></script>
+        <script src="navbar.js"></script>
     </head>
-    <body class = "Page_Format">
-        <header class = "nav_bar">
-            <div class="container">
-                <div class = "row">
-                    <div class = "twelve columns">
-                        <nav>
-                            <a href = "#" class="nav-elem">Home</a>
-                            <a href = "#" class="nav-elem">Blog</a>
-                            <a href = "#" class="nav-elem">Projects</a>
-                            <a href = "#" class="nav-elem">Contact</a>
-                        </nav>
-                    </div>
-                </div>
+    <body>
+        <div id="navigation" id="animate">
+            <div id="guide"></div>
+            <ul>
+                <li class = "active"><a href = "index.html">Home</a></li>
+                <li><a href = "#">Projects</a></li>
+                <li><a href = "#">Education</a></li>
+                <li><a href = "#">Interests</a></li>
+                <li><a href = "#">Experience</a></li> <!--connecting a network of these as the links that connect to make my site map and act as the menu bar-->
+                <li><a href = "#">Involvement</a></li> <!--Cylon Characters that drop down for js animation--> 
+            </ul>
+        </div>
+        <div id = "greeting" class = "container">
+            <div class = "row">
+                <span class = "spec-heading" class = "col-sm-12">Welcome!</span>
             </div>
-        </header>
-        
-        <img id="splash-image" src="Images/grey_wood.jpg"/>
-        <div class = "blurb">
-            <div class = "container">
-                
-                   <div class="row">
-                        <div class="four columns"><span class = "sub-title">Who Am I?</span></div>
-                        <div class="eight columns">
-                            <span id = "blirb">Currently I'm a High School student with a strong pation for Technology and emerging industries.</span> 
-                            <table class="u-full-width">
-                                <thead>
-                                    <tr>
-                                        <th>Skill</th>
-                                        <th>Time</th>
-                                        <th>Languages</th>
-                                        <th>Experience In RealWorld</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td>Web Development</td>
-                                        <td>3 years</td>
-                                        <td>HTML, CSS, PHP, JS, and SASS</td>
-                                        <td>Yes</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Java Development</td>
-                                        <td>0.7 years</td>
-                                        <td>Java 7 and 8</td>
-                                        <td>Yes</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Tutoring</td>
-                                        <td>1 year</td>
-                                        <td>English and Spanish</td>
-                                        <td>Yes</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                       </div>
-                    </div>
-
+            <div class = "row">
+                <p id = "greeting-message" class = "col-sm-12">
+                    Learn about my passions, interests, and projects. If you want to get in contact please do so.
+                </p><!--Welcome should change into different language greetings-->
             </div>
-        </div>    
-        
-        <div>Links to other projects and Social Media</div>
-        <footer>External Links</footer>
+        </div>
     </body>
 </html>

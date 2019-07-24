@@ -1,0 +1,91 @@
+#datastream {
+    border: 2px solid black;
+}
+
+body {
+    margin: 0 0 0 0;
+}
+
+#canvas {
+    margin: 0 0 0 0; 
+    position: fixed;
+    width: 100%;
+}
+
+/*Content related to the greeting*/
+
+#navigation {
+    margin: 0 0 0 0;
+    height: 100%;
+    width: 10%;
+    position: fixed;
+    z-index: 10;
+    background-color: white;
+}
+
+#navigation ul li { /*The button which the user presses in the menu*/
+    width: 100%;
+    border: 0px solid red;
+    /* Top right bottom left*/
+    padding: 15% 0% 15% 0%;
+    margin: 50% 0% 0% 0%;
+    /*background-color: aqua;*/
+    text-align: left;
+    font-size: 130%;
+    font-family: fantasy;
+    list-style-type: none;
+}
+
+#navigation ul li:hover {
+    cursor: pointer;
+}
+
+#navigation ul li:active {
+    cursor: pointer;
+    
+}
+
+#navigation ul li a {
+    text-decoration: none;
+    color: black;
+    padding-left: 10%;
+    
+}
+
+#guide {
+    border: 0px solid red;
+    position: absolute;
+    width: 20%;
+    height 100%;
+    padding: 20% 0% 15% 0%;
+    background-color: rgba(254, 6, 6, 0.7);
+    box-shadow: 0em 0.1em 0.5em red;
+    z-index: 11;
+}
+
+/*Content related to the greeting*/
+
+#greeting { /*golden ration 1.618*/
+    border: 0px solid white;
+    position: absolute;
+    margin:15% 0% 0% 40%;
+    background-color: rgba(255, 255, 255, 0.95);
+    box-shadow: 0em 0.1em 0.5em white;
+    z-index: 12;
+    text-align: center;
+}
+
+#greeting-message {
+    font-family: monospace;
+    font-size: 1em;
+    padding: 0% 5% 0% 5%;
+    text-align: left;
+}
+
+.spec-heading {
+    font-family: monospace;
+    color: rgba(254, 6, 6, 0.7);
+    text-align: center;
+    font-size: 5em;
+    padding: 0% 5% 0% 5%;
+}
